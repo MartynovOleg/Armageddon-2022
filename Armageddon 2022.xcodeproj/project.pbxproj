@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		041CEA8A2808AB0900B505D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041CEA892808AB0900B505D8 /* AppDelegate.swift */; };
 		041CEA8C2808AB0900B505D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041CEA8B2808AB0900B505D8 /* SceneDelegate.swift */; };
-		041CEA8E2808AB0900B505D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041CEA8D2808AB0900B505D8 /* ViewController.swift */; };
 		041CEA912808AB0900B505D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041CEA8F2808AB0900B505D8 /* Main.storyboard */; };
 		041CEA932808AB0B00B505D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041CEA922808AB0B00B505D8 /* Assets.xcassets */; };
 		041CEA962808AB0B00B505D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041CEA942808AB0B00B505D8 /* LaunchScreen.storyboard */; };
+		041CEA9E280986DC00B505D8 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041CEA9D280986DC00B505D8 /* Cell.swift */; };
+		041CEAA22809D6B800B505D8 /* AsteroidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041CEAA12809D6B800B505D8 /* AsteroidViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		041CEA862808AB0900B505D8 /* Armageddon 2022.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Armageddon 2022.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		041CEA892808AB0900B505D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		041CEA8B2808AB0900B505D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		041CEA8D2808AB0900B505D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		041CEA902808AB0900B505D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		041CEA922808AB0B00B505D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		041CEA952808AB0B00B505D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		041CEA972808AB0B00B505D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		041CEA9D280986DC00B505D8 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		041CEAA12809D6B800B505D8 /* AsteroidViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsteroidViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		041CEA7D2808AB0900B505D8 = {
 			isa = PBXGroup;
 			children = (
+				041CEA9D280986DC00B505D8 /* Cell.swift */,
 				041CEA882808AB0900B505D8 /* Armageddon 2022 */,
 				041CEA872808AB0900B505D8 /* Products */,
 			);
@@ -57,8 +60,8 @@
 			isa = PBXGroup;
 			children = (
 				041CEA892808AB0900B505D8 /* AppDelegate.swift */,
+				041CEAA12809D6B800B505D8 /* AsteroidViewController.swift */,
 				041CEA8B2808AB0900B505D8 /* SceneDelegate.swift */,
-				041CEA8D2808AB0900B505D8 /* ViewController.swift */,
 				041CEA8F2808AB0900B505D8 /* Main.storyboard */,
 				041CEA922808AB0B00B505D8 /* Assets.xcassets */,
 				041CEA942808AB0B00B505D8 /* LaunchScreen.storyboard */,
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				041CEA8E2808AB0900B505D8 /* ViewController.swift in Sources */,
+				041CEA9E280986DC00B505D8 /* Cell.swift in Sources */,
+				041CEAA22809D6B800B505D8 /* AsteroidViewController.swift in Sources */,
 				041CEA8A2808AB0900B505D8 /* AppDelegate.swift in Sources */,
 				041CEA8C2808AB0900B505D8 /* SceneDelegate.swift in Sources */,
 			);
